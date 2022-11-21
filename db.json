@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "Title",
+      "id": 1,
+      "body": "askljdhaksjd askdjh asdkj haskdj hasdjk hasdjkh asd"
+    },
+    {
+      "title": "Title 5",
+      "id": 5,
+      "body": "askljdhaksjd askdjh asdkj haskdj hasdjk hasdjkh asd"
+    }
+  ]
+}

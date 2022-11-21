@@ -1,0 +1,124 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+h4,
+p {
+  margin: 0;
+}
+.row {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 30px;
+}
+.post--element {
+  box-shadow: 0 0 7px black;
+  padding: 8px;
+  border-radius: 3px;
+  flex: 0 0 auto;
+  max-width: 25%;
+  width: 25%;
+  overflow: hidden;
+}
+.post--element h4,
+.post--element p {
+  margin-bottom: 8px;
+}
+.post--element .post--controls .btn {
+  margin-right: 10px;
+}
+
+.controls {
+  margin-bottom: 10px;
+}
+
+.post--element p {
+  white-space: nowrap;
+  width: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 7px;
+  position: relative;
+}
+.modal .close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: red;
+  font-weight: bold;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal-title {
+  margin-bottom: 16px;
+}
+.modal-form .form-group {
+  margin-bottom: 8px;
+}
+.modal-form .form-group input,
+.modal-form .form-group textarea {
+  width: 100%;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.btn.btn-info {
+  background-color: navy;
+  color: #fff;
+}
+.btn.btn-delete {
+  background-color: red;
+  color: #fff;
+}
+
+.btn.btn-primary {
+  background-color: blueviolet;
+  color: #fff;
+}
+
+.btn.btn-success {
+  background-color: yellowgreen;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
